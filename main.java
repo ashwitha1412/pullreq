@@ -3,14 +3,14 @@ import java.lang.*;
 import java.util.*;
 class one
 { 
- void cscs()
+ void comp()
  {
   System.out.println("cscs");
  }
 }
 class two extends one
 { 
- void dept()
+ void subj()
  {
   System.out.println("dept");
  }
@@ -20,7 +20,7 @@ class main1
  public static void main(String args[])
  {
   two c=new two();
-  g.cscs();
-  g.dept();
+  g.comp();
+  g.subj();
  }
 }
